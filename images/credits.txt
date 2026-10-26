@@ -1,0 +1,15 @@
+Photography sources
+
+hero.jpg — C.F. Photography: https://unsplash.com/photos/D100o5TDCys
+kids.jpg — C.F. Photography: https://unsplash.com/photos/cXvIdC9zyFI
+adults.jpg — C.F. Photography: https://unsplash.com/photos/H-FX-3xmtKU
+competition.jpg — C.F. Photography: https://unsplash.com/photos/21KJz9GN940
+training.jpg — Oboakpeyrenyehavwo: https://unsplash.com/photos/J7sHDNaanAA
+coach-daniel.jpg — cottonbro studio: https://www.pexels.com/photo/6767251/
+coach-alex.jpg — Максим Андреев: https://www.pexels.com/photo/15636091/
+
+Unsplash License: https://unsplash.com/license
+Pexels License: https://www.pexels.com/license/
+Portraits and biographies are placeholders for a private design mockup; the models are not academy coaches.
+Barlow fonts: see ../fonts/OFL.txt.
+Logo supplied by the client.
