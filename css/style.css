@@ -207,9 +207,17 @@ p + p {
     border-color: var(--color-green);
 }
 
+.icon-arrow {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
 .button__arrow {
-    font-size: 22px;
-    line-height: 1;
+    width: 22px;
+    height: 22px;
 }
 
 .button:disabled {
