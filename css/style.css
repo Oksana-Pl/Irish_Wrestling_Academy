@@ -410,7 +410,7 @@ p + p {
     align-self: center;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 0;
     background: currentColor;
 }
 
