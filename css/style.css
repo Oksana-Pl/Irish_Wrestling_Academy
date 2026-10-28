@@ -353,7 +353,7 @@ p + p {
     isolation: isolate;
     min-height: 680px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
 }
 
@@ -377,12 +377,12 @@ p + p {
 }
 
 .hero__content {
-    padding-block: 70px 56px;
+    padding-block: 122px 56px;
 }
 
 .hero h1 {
     max-width: 800px;
-    font-size: clamp(3rem, 1.5rem + 5vw, 5.5rem);
+    font-size: clamp(3.75rem, 2rem + 6vw, 6.875rem);
     line-height: 1.05;
     letter-spacing: -.025em;
 }
@@ -1336,7 +1336,7 @@ p + p {
 
     .hero {
         min-height: 700px;
-        align-items: end;
+        align-items: flex-start;
     }
 
     .hero__image {
@@ -1350,7 +1350,7 @@ p + p {
     }
 
     .hero__content {
-        padding-block: 190px 40px;
+        padding-block: 230px 40px;
     }
 
     .hero__description {
