@@ -696,9 +696,26 @@ p + p {
 }
 
 .footer-column a {
+    text-decoration: none;
     display: block;
     width: fit-content;
     min-height: 36px;
+}
+
+.footer-column a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+.footer-brand strong {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .social-links {
