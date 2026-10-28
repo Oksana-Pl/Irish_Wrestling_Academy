@@ -935,6 +935,7 @@ p + p {
 }
 
 .timetable tbody th {
+    font-size: 1.25rem;
     padding-top: 22px;
     font-weight: 600;
 }
@@ -951,7 +952,6 @@ p + p {
 
 .timetable__kids {
     color: var(--color-accent);
-    font-weight: 600;
 }
 
 .table-note {
@@ -1439,7 +1439,6 @@ p + p {
 
     .timetable td, .timetable th {
         padding: 16px 7px;
-        font-size: var(--text-ui);
     }
 
     .contact-form {
