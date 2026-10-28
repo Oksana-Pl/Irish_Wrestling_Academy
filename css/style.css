@@ -904,58 +904,54 @@ p + p {
     text-align: left;
 }
 
-.timetable caption {
-    text-align: left;
-    padding-bottom: 24px;
-    color: var(--color-text);
-    font-size: var(--text-body);
-    font-weight: 600;
+.timetable__day {
+    width: 32%;
 }
 
-.timetable th {
-    padding: 14px 16px;
+.timetable__time {
+    width: 42%;
+}
+
+.timetable__training {
+    width: 26%;
+}
+
+.timetable th, .timetable td {
+    padding: 18px 16px;
+    font-size: var(--text-body);
+    vertical-align: top;
+}
+
+.timetable thead th {
     border-bottom: 1px solid #7d9588;
     font-size: var(--text-ui);
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .05em;
 }
 
-.timetable td {
-    padding: 20px 16px;
-    border-bottom: 1px solid #557165;
-    font-size: var(--text-body);
+.timetable tbody {
+    border-bottom: 1px solid #7d9588;
 }
 
 .timetable tbody th {
-    font-size: var(--text-body);
-    text-transform: none;
-    letter-spacing: normal;
-    border-bottom-color: #557165;
-}
-
-.timetable tbody tr:not(.timetable__break) {
-    background: #123127;
-}
-
-.timetable__kids th {
-    border-left: 4px solid var(--color-accent);
-}
-
-.timetable__adults th {
-    border-left: 4px solid var(--color-text);
-}
-
-.timetable tbody tr:not(.timetable__break) td {
-    font-size: clamp(1.125rem, 1rem + .5vw, 1.5rem);
+    padding-top: 22px;
     font-weight: 600;
 }
 
-.timetable .timetable__break td {
-    padding-block: 14px;
-    border: 0;
-    color: #c4d4cb;
-    font-size: var(--text-ui);
-    text-align: center;
+.timetable tbody tr:first-child td {
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+
+.timetable tbody tr:last-child td {
+    padding-top: 8px;
+    padding-bottom: 22px;
+}
+
+.timetable__kids {
+    color: var(--color-accent);
+    font-weight: 600;
 }
 
 .table-note {

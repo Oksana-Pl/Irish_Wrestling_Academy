@@ -160,25 +160,50 @@
                 <div class="container">
 
                     <h2 id="timetable-title">Your training <span class="accent">week.</span></h2>
-                    <table class="timetable">
-                        <caption>Tuesday · Thursday · Saturday</caption>
+                    <table class="timetable" aria-labelledby="timetable-title">
+                        <colgroup>
+                            <col class="timetable__day" />
+                            <col class="timetable__time" />
+                            <col class="timetable__training" />
+                        </colgroup>
                         <thead>
                             <tr>
-                                <th scope="col">Training</th>
+                                <th scope="col">Day</th>
                                 <th scope="col">Time</th>
+                                <th scope="col">Training</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="timetable__kids">
-                                <th scope="row">Kids Wrestling</th>
+                            <tr>
+                                <th scope="rowgroup" rowspan="2">Tuesday</th>
                                 <td><time datetime="18:30">18:30</time>–<time datetime="19:30">19:30</time></td>
+                                <td class="timetable__kids">Kids</td>
                             </tr>
-                            <tr class="timetable__break">
-                                <td colspan="2">30-minute break</td>
-                            </tr>
-                            <tr class="timetable__adults">
-                                <th scope="row">Adult Wrestling</th>
+                            <tr>
                                 <td><time datetime="20:00">20:00</time>–<time datetime="21:30">21:30</time></td>
+                                <td>Adults</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="rowgroup" rowspan="2">Thursday</th>
+                                <td><time datetime="18:30">18:30</time>–<time datetime="19:30">19:30</time></td>
+                                <td class="timetable__kids">Kids</td>
+                            </tr>
+                            <tr>
+                                <td><time datetime="20:00">20:00</time>–<time datetime="21:30">21:30</time></td>
+                                <td>Adults</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="rowgroup" rowspan="2">Saturday</th>
+                                <td><time datetime="18:30">18:30</time>–<time datetime="19:30">19:30</time></td>
+                                <td class="timetable__kids">Kids</td>
+                            </tr>
+                            <tr>
+                                <td><time datetime="20:00">20:00</time>–<time datetime="21:30">21:30</time></td>
+                                <td>Adults</td>
                             </tr>
                         </tbody>
                     </table>
