@@ -194,7 +194,7 @@ p + p {
 }
 
 .button--outline {
-    border-color: #7b817c;
+    border-color: #fff;
     color: var(--color-text);
     background: transparent;
 }
