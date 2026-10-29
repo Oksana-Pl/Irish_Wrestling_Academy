@@ -668,7 +668,9 @@ p + p {
 .footer-brand {
     display: flex;
     align-items: center;
-    gap: 18px;
+    justify-content: center;
+    width: 206px;
+    max-width: 100%;
     text-decoration: none;
 }
 
