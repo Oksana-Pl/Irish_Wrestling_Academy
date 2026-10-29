@@ -1425,11 +1425,22 @@ p + p {
     }
 
     .footer-main {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        grid-template-columns: minmax(0, 1fr);
+        justify-items: center;
+        gap: 36px;
+        text-align: center;
     }
 
-    .footer-main > :first-child {
-        grid-column: 1 / -1;
+    .footer-brand, .footer-column a {
+        margin-inline: auto;
+    }
+
+    .footer-main .social-links {
+        justify-content: center;
+    }
+
+    .footer-top {
+        justify-content: center;
     }
 
     .page-hero {
