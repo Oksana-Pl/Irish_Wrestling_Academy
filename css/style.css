@@ -639,6 +639,14 @@ p + p {
     gap: 50px;
 }
 
+.cta-inner > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    text-align: right;
+}
+
 .cta-inner h2 {
     font-size: clamp(2rem, 1.4rem + 2.5vw, 3.75rem);
 }
