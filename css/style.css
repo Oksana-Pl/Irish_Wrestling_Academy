@@ -1428,6 +1428,12 @@ p + p {
         gap: 30px;
     }
 
+    .cta-inner > div {
+        align-items: flex-start;
+        margin-left: 0;
+        text-align: left;
+    }
+
     .cta-inner p {
         max-width: 450px;
     }
