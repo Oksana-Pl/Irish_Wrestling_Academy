@@ -1335,17 +1335,29 @@ p + p {
     }
 
     .site-nav {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "about events"
+            "timetable contact"
+            "membership ."
+            "cta cta";
         width: 100%;
         gap: 0;
-        flex-wrap: wrap;
         padding-bottom: 12px;
     }
 
     .site-nav a {
         justify-content: center;
-        width: 50%;
+        width: 100%;
         padding: 10px;
     }
+
+    .site-nav a[href="index.html#about"] { grid-area: about; }
+    .site-nav a[href="membership.html#timetable"] { grid-area: timetable; }
+    .site-nav a[href="membership.html"] { grid-area: membership; }
+    .site-nav a[href="events.html"] { grid-area: events; }
+    .site-nav a[href="contact.html"] { grid-area: contact; }
 
     .js .site-nav {
         display: none;
@@ -1354,10 +1366,11 @@ p + p {
     }
 
     .js .site-nav.is-open {
-        display: flex;
+        display: grid;
     }
 
     .site-nav .nav-cta {
+        grid-area: cta;
         width: 100%;
         margin-top: 8px;
     }
