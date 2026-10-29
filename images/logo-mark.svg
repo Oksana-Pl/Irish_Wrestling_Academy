@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 393.1 232.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0d5c8;
+      }
+
+      .cls-2 {
+        fill: #005241;
+      }
+
+      .cls-3 {
+        fill: url(#Metallic_2);
+      }
+
+      .cls-4 {
+        fill: #e96929;
+      }
+    </style>
+    <linearGradient id="Metallic_2" data-name="Metallic 2" x1="-188.28" y1="-112.56" x2="451.47" y2="292.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#757575"/>
+      <stop offset="0" stop-color="#909090"/>
+      <stop offset=".01" stop-color="#bdbdbd"/>
+      <stop offset=".02" stop-color="#cfcfcf"/>
+      <stop offset=".02" stop-color="#acacac"/>
+      <stop offset=".03" stop-color="#898989"/>
+      <stop offset=".04" stop-color="#6d6d6d"/>
+      <stop offset=".05" stop-color="#595959"/>
+      <stop offset=".06" stop-color="#4d4d4d"/>
+      <stop offset=".06" stop-color="#4a4a4a"/>
+      <stop offset=".09" stop-color="#515151"/>
+      <stop offset=".12" stop-color="#666"/>
+      <stop offset=".13" stop-color="#747474"/>
+      <stop offset=".16" stop-color="#9b9b9b"/>
+      <stop offset=".2" stop-color="#d8d8d8"/>
+      <stop offset=".23" stop-color="#fff"/>
+      <stop offset=".24" stop-color="#e9e9e9"/>
+      <stop offset=".26" stop-color="#b5b5b5"/>
+      <stop offset=".28" stop-color="#8f8f8f"/>
+      <stop offset=".29" stop-color="#787878"/>
+      <stop offset=".3" stop-color="#707070"/>
+      <stop offset=".31" stop-color="#737373"/>
+      <stop offset=".32" stop-color="#787878"/>
+      <stop offset=".33" stop-color="#828282"/>
+      <stop offset=".34" stop-color="#9e9e9e"/>
+      <stop offset=".36" stop-color="#ccc"/>
+      <stop offset=".38" stop-color="#fff"/>
+      <stop offset=".39" stop-color="#e6e6e6"/>
+      <stop offset=".4" stop-color="#d2d2d2"/>
+      <stop offset=".41" stop-color="#c6c6c6"/>
+      <stop offset=".42" stop-color="#c2c2c2"/>
+      <stop offset=".44" stop-color="#c9c9c9"/>
+      <stop offset=".48" stop-color="#ddd"/>
+      <stop offset=".51" stop-color="#f5f5f5"/>
+      <stop offset=".54" stop-color="#fff"/>
+      <stop offset=".56" stop-color="#fafafa"/>
+      <stop offset=".57" stop-color="#f7f7f7"/>
+      <stop offset=".6" stop-color="#ebebeb"/>
+      <stop offset=".63" stop-color="#d4d4d4"/>
+      <stop offset=".66" stop-color="#c3c3c3"/>
+      <stop offset=".67" stop-color="#b3b3b3"/>
+      <stop offset=".72" stop-color="#8c8c8c"/>
+      <stop offset=".74" stop-color="#7a7a7a"/>
+      <stop offset=".77" stop-color="#6e6e6e"/>
+      <stop offset=".78" stop-color="#717171"/>
+      <stop offset=".79" stop-color="#7d7d7d"/>
+      <stop offset=".8" stop-color="#909090"/>
+      <stop offset=".82" stop-color="#ababab"/>
+      <stop offset=".82" stop-color="#a4a4a4"/>
+      <stop offset=".83" stop-color="#7d7d7d"/>
+      <stop offset=".85" stop-color="#616161"/>
+      <stop offset=".86" stop-color="#505050"/>
+      <stop offset=".87" stop-color="#4a4a4a"/>
+      <stop offset=".89" stop-color="#4e4e4e"/>
+      <stop offset=".9" stop-color="#5c5c5c"/>
+      <stop offset=".92" stop-color="#727272"/>
+      <stop offset=".94" stop-color="#929292"/>
+      <stop offset=".96" stop-color="#bababa"/>
+      <stop offset=".97" stop-color="#d9d9d9"/>
+      <stop offset="1" stop-color="#6e6e6e"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polygon class="cls-2" points="218.3 230.15 249.02 178.39 270.79 211.77 258.21 232.08 218.3 230.15"/>
+    <path class="cls-3" d="M0,78.75h44.5l76.42,113.67-25.15,37.73L0,78.75ZM200.89,230.15l69.89-114.15-24.18-37.24-93.11,151.4h47.4ZM301.02,232.08h45.71l-67.72-100.61-23.7,34.83,45.71,65.78ZM282.33,42.57l-7.74,4.84L246.54,0l-29.68,45.62-6.37-9.81-35.6,55.43-.04.07-28.77,41.62-34.83-54.18h-47.4l60.71,90.89h0s1.88,2.82,1.88,2.82l10.31,15.42,9.53,15.55,10.44-17.12,9.4-15.12h0c.21-.5,4.25-7.34,6.49-11.67,6.51-12.48,15.85-37.4,18.09-41.62.98-1.45,1.38,4.62,1.48,5.34-.1,1.92.68.58,1.11-.14,1.73-3.36,3.15-10.39,4.76-13.43,1.16-1.94,2.56,4.33,3.13,5.12l29.64-47.71,11.3-16.49c1.23-1.8,3.87-1.85,5.17-.1l19,25.46c1.33,1.78,4.07,1.49,5.01-.52h0c.14-.3.55-.32.72-.04l5.02,8.08c.87,1.4,3.03.72,2.95-.92h0c-.01-.25.3-.35.45-.15l24.92,35.4c.71,1.01,2.29.35,2.08-.86l-.65-3.71c-.16-.92,1.06-1.4,1.56-.61l28.68,44.35,4.35-4.11,51.76,65.3-110.77-175.58Z"/>
+    <polygon class="cls-1" points="279.28 200.81 301.02 232.08 346.73 232.08 279.28 131.88 279.28 200.81"/>
+    <polygon class="cls-4" points="301.02 232.08 346.73 232.08 301.02 164.17 301.02 232.08"/>
+  </g>
+</svg>

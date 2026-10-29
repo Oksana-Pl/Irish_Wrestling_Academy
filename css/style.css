@@ -292,7 +292,7 @@ p + p {
 
 .brand img {
     width: 75px;
-    height: 75px;
+    height: auto;
     object-fit: contain;
 }
 
@@ -673,8 +673,8 @@ p + p {
 }
 
 .footer-brand img {
-    width: 104px;
-    height: 104px;
+    width: 144px;
+    height: auto;
     object-fit: contain;
 }
 
@@ -1312,7 +1312,7 @@ p + p {
 
     .brand img {
         width: 65px;
-        height: 65px;
+        height: auto;
     }
 
     .brand__name {
